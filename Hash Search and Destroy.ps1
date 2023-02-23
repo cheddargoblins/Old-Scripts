@@ -20,7 +20,7 @@ Invoke-Command -cn $target -ScriptBlock {
 	Do {$Alpa = [char]$Alp
 		#Adds hashs of all files recurisely from the root folder. Include keywords in the -Include section to filter on files for Interest.
 		$hashs += Get-Childitem -path "$Alpa`:\" -Include "*1*","*.lnk" -ErrorAction SilentlyContinue -Recurse -Force | Get-FileHash -Algorithm MD5 -ErrorAction SilentlyContinue
-        #Change Algorithm above from MD5 to another one if desired.
+        	#Change Algorithm above from MD5 to another one if desired.
 		$Alp--}
 	Until ($Alp -lt 65)
 
