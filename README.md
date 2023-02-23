@@ -1,5 +1,5 @@
 # Old-Scripts
-A Collection of old scripts I wrote and decided to upload.
+A Collection of **old** scripts I wrote and decided to upload.
 
 Most, if not all, scripts in this repo are written in PowerShell.
 It was my first initial "language" and one that I was most comfortable writing in initially.
@@ -10,7 +10,7 @@ I uploaded these scripts to remind myself of my initial projects and skill level
 For some of these scripts, I have fond memories of writing and using them.
 
 
-#Scripts Purposes:
--Spidey: Remote Computer Forensics
--Hash Search and Destroy: File hasher that will delete a specified file based on its hash from a remote computer
--NoWhiteSpace: Removes all whitespace characters from a file
+## Scripts Purposes
+- Spidey: Remote Computer Forensics
+- Hash Search and Destroy: File hasher that will delete a specified file based on its hash from a remote computer
+- NoWhiteSpace: Removes all whitespace characters from a file
