@@ -1,13 +1,11 @@
 # Old-Scripts
-A Collection of **old** scripts I wrote and decided to upload.
+I've decided to upload a selection of **old** scripts written by me. The ones presented here are ones that I felt were personally noteworthy of my initial ability, ingenuity, and project types. These are also the ones I was able to upload.
 
-Most, if not all, scripts in this repo are written in PowerShell.
-It was my first initial "language" and one that I was most comfortable writing in initially.
+Most, if not all, scripts in this repo are written in PowerShell. It was my first "language" and one that I was most comfortable writing in initially.
 
-Most are massive messes of code tossed together in a single file. Maybe someday I'll circle back and actually structure it properly and improve up them.
+Most of these scripts are (massive) messes of code tossed together within a single file. Maybe someday I'll circle back and actually structure these scripts properly and improve them.
 
-I uploaded these scripts to remind myself of my initial projects and skill level as a reminder of how far I've come.
-For some of these scripts, I have fond memories of writing and using them.
+I uploaded these scripts showcasing my initial projects and skill level as a reminder of how far I've come. For some of these scripts, I have fond memories of writing and using them.
 
 
 ## Scripts Purposes
