@@ -11,4 +11,5 @@ I uploaded these scripts showcasing my initial projects and skill level as a rem
 ## Scripts Purposes
 - Spidey: Remote Computer Forensics
 - Hash Search and Destroy: File hasher that will delete a specified file based on its hash from a remote computer
-- NoWhiteSpace: Removes all whitespace characters from a file
+- NoWhiteSpace: Removes all multiple whitespace characters from a file
+- OVA Convertor: Script for converting multiple, specified VMs into OVAs. Also gives the option to save completed OVAs to an external hard drive and power off the computer once all tasks are completed. Requires VMware's OVF Tool.
