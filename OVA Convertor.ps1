@@ -6,8 +6,10 @@ $menu = $true
 function OVAName {
 $global:dest_name = Read-Host "Type in OVA name to save as"
 $global:external_ovas += "$global:dest_name.ova"
+#Change <PATH_TO_EXPORT_FOLDER> below to desired folder path for the OVAs to be saved to.
 $global:dest_ovas += "`"<PATH_TO_EXPORT_FOLDER>\$global:dest_name.ova`""}
 
+#For line 17 to 36 change VM* and <PATH_TO_VM*> to represent actual VM names and their file paths to their associated vmxs on your computer. Can add more VMs if desired.
 Do {
 [string]$menu = @'
                     VM Options:                     
@@ -51,6 +53,7 @@ Do {
 }
 until ($menu -eq $false)
 
+#Change <PATH_TO_EXTERNAL_DRIVE> below to desired Disk Drive path if planning on copying OVAs to an external hard drive.
 if (Test-Path '<PATH_TO_EXTERNAL_DRIVE>') {
 $copy = Read-Host "Do you wanna save to external? y/n"}
 
@@ -68,7 +71,7 @@ if (Test-Path $global:dest_ovas[$i]) {
 
 cmd /c Ovftool.exe $src_vms[$i] $global:dest_ovas[$i]
 
-
+#Change lines 76,77,79,83's <PATH_TO_EXTERNAL_DRIVE> to desired Disk Drive path if planning on copying OVAs to an external hard drive.
 if ($copy -like "y*") {
     if (Test-Path '<PATH_TO_EXTERNAL_DRIVE>') {
         if (Test-Path "<PATH_TO_EXTERNAL_DRIVE>\$($global:external_ovas[$i])") {
